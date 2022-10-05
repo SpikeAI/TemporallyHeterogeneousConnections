@@ -1,1 +1,1 @@
-# asyncNN
+# Temporally Heterogeneous Connections
