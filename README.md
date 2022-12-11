@@ -1,13 +1,17 @@
 # Temporally Heterogeneous Connections
 
 
+## ideas
+
+* focal loss instead of `pos_weight`                                                                                                                                                                                                                                                                                                                                         
+
 ## 2022-12-24_xmas
 
 * `2022-12-07_HD-SNN.ipynb`: adaptation from for 2022-11-30 BiolCyb submission with a scan of parameters for the learning
 
 ## 2022-11-23_cosyne-THC
 
-* `2022-11-30_ABCD_BiolCyb.ipynb`: formatting for 2022-11-30 BiolCyb submission + scan of parameters for the learning
+* `2022-11-30_ABCD_BiolCyb.ipynb`: formatting for 2022-11-30 BiolCyb submission + scan of parameters for the learning. started using `pos_weight` in the [BCEWithLogitsLoss](https://pytorch.org/docs/master/generated/torch.nn.BCEWithLogitsLoss.html), but there's a bug...
 * `2022-11-24_ABCD.ipynb`: using `p_A = 0.003`
 * `2022-11-23_ABCD_CoSyNe_scan.ipynb`: run for COSYNE submission - the scan
 * `2022-11-23_ABCD_CoSyNe.ipynb`: run for COSYNE submission - unsupervised learning fails
